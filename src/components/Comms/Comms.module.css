@@ -1,0 +1,71 @@
+.blkBG {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 10;
+}
+
+.wrapper {
+    position: absolute;
+    max-height: 60vh;
+    width: 60vw;
+    left: 50%;
+    transform: translate(-50%, 45vh);
+    display: inline-grid;
+    overflow: hidden;
+    z-index: 11;
+}
+
+.temp {
+    background-color: #220050;
+}
+
+.container {
+    margin: 0.6rem;
+    padding-block-end: 1rem;
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aliceblue;
+    clip-path: polygon(2.5% 0%, 97.5% 0%, 100% 50%, 97.5% 100%, 2.5% 100%, 0% 50%);
+    position: relative;
+}
+
+.raviShastri {
+    max-width: 20%;
+}
+
+.msg {
+    text-align: left;
+    padding-inline: 2rem;
+    padding-block: 0.75rem 0.25rem;
+    font-size: 1.25rem;
+    color: #220050;
+    animation: come-in 1s;
+}
+
+@keyframes come-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.nxt {
+    color: white;
+    background-color: #220050;
+}
+
+.nxt:hover {
+    color: #00B1EB;
+}

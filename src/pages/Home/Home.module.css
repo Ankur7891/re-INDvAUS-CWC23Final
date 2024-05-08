@@ -1,0 +1,13 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #220050;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mainImg {
+    display: inline-block;
+    height: 100vh;
+    max-width: 100vw;
+}

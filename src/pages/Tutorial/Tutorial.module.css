@@ -1,0 +1,53 @@
+.main {
+    height: 100vh;
+    width: 100vw;
+    background-color: #220050;
+    background-image: url("../../assets/img/tutorialBG.png");
+    background-size: auto 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tutCont {
+    height: 100vh;
+    aspect-ratio: calc(16 / 9);
+    position: relative;
+    margin-block: 1rem;
+    margin-inline: auto;
+    padding: 1.5rem 5rem;
+    display: grid;
+    grid-template-rows: 7vh auto 15vh;
+}
+
+.tutTitle {
+    color: #00B1EB;
+}
+
+.tutContent {
+    color: white;
+    text-align: left;
+}
+
+.btnCont {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.back,
+.next {
+    margin-inline-end: 5vh;
+    align-self: end;
+    font-weight: 700;
+    color: #220050;
+    background-color: white;
+}
+
+.back:hover,
+.next:hover {
+    color: #FEED02;
+    background-color: #E40515;
+}
